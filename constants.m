@@ -9,4 +9,4 @@ Cd_0 = 0.012; % Parasite drag coeffient
 m = 5.44; 
 CL_max = 1.2; % Maximum Lift Coefficient 
 dphidt_max = 30; % Maximum roll rat
-dt = 0.1;
+dt = 0.01;
