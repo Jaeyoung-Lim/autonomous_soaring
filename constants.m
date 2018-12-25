@@ -7,6 +7,6 @@ AR = 19.54; % Wing aspect ratio
 e = 0.85; % Oswald's efficiency factor 
 Cd_0 = 0.012; % Parasite drag coeffient 
 m = 5.44; 
-CL_max = 1.2; % Maximum Lift Coefficient 
+Cl_max = 1.2; % Maximum Lift Coefficient 
 dphidt_max = 30; % Maximum roll rat
 dt = 0.01;
