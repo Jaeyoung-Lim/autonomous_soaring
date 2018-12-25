@@ -11,6 +11,7 @@ function state = step(state, roll_rate, pitch_rate, wind_gradient)
     L = m/cos(phi) * (v_a * dgamma_a_dt + g * cos(gamma_a) - [sin(gamma_a)*cos(psi_a), sin(gamma_a) * sin(psi_a), cos(gamma_a)]* Jw * vel');
     % Check if lift is feasible
     if ~liftisfeasible(state, L)
+        L =  0.5 * Cl_max * (rho * v_a^2 * S );
         dgamma_a_dt = (1/v_a) * ( L / m * cos(phi) - g * cos(gamma_a) + [sin(gamma_a)*cos(psi_a), sin(gamma_a) * sin(psi_a), cos(gamma_a)] * Jw * vel');
     end
     
