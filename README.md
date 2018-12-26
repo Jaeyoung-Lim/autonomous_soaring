@@ -1,6 +1,6 @@
 # autonomous_soaring
 
-This Repository includes a simulation for autonomous dynamic soaring.
+This Repository includes a framework for simulating and evaluatiing path planning for small giding unmanned aerial vehicles in the presence of wind fields.
 
 ![pathplot](/resources/dynamics.png)
 
